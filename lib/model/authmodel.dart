@@ -1,0 +1,1 @@
+enum Authmodel { signin, forget }

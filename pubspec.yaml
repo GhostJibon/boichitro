@@ -1,0 +1,210 @@
+name: dhanshirisapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 15.0.18+46
+
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  sizer: ^2.0.13
+  intl_phone_number_input: ^0.7.0+2
+  provider: ^5.0.0
+  http: ^0.13.3
+  dio: ^4.0.0
+  flutter_easyloading: ^3.0.0
+  carousel_slider: ^4.0.0
+  curved_navigation_bar: ^1.0.1
+  google_nav_bar: ^5.0.5
+  flutter_rating_bar: ^4.0.0
+  easy_localization: ^3.0.0
+  shared_preferences: ^2.0.6
+  auto_size_text: ^3.0.0-nullsafety.0
+  pull_to_refresh: ^2.0.0
+  sms_autofill: ^2.1.2
+  device_preview: ^0.7.4
+  flutter_secure_storage: ^5.0.2
+  shimmer: ^2.0.0
+  audio_video_progress_bar: ^0.3.1
+  percent_indicator: ^3.4.0
+  sqflite: ^2.0.0+4
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  firebase_core: ^1.22.0
+  firebase_auth: ^3.9.0
+  google_sign_in: ^5.4.1
+  flutter_facebook_auth: ^4.0.1
+  flutter_widget_from_html: ^0.8.5
+  webview_flutter: ^3.0.0
+  cached_network_image: ^3.2.0
+  flutter_share: ^2.0.0 
+  highlight_text: ^1.3.0
+  firebase_messaging: ^11.2.13
+  flutter_local_notifications: ^9.3.3
+  audioplayers: ^0.20.1
+  flutter_screen_wake: ^1.0.2
+ # firebase_crashlytics: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/background_image.png
+    - assets/backgroudImagedeshboard.png
+    - assets/backgroud_color.png
+    - assets/logo.png
+    - assets/backgroundImage02.png
+    - assets/backgroundImage03.png
+    - assets/Background-4.jpeg
+    - assets/taka.jpg
+    - assets/download.jpeg
+    - assets/google.png
+    - assets/Dhanshiri-Digital.png
+    - assets/ict.png
+    - assets/facebook.png
+    - assets/Music-Icon.png
+    - assets/Bangladesh-50years-&-Mujib-100.png
+    - assets/1-Border-Lin.png
+    - assets/logo_white.png
+    - assets/loading_gif.gif
+    - assets/aboutpage.png
+    - assets/aboutpage1.png
+    - assets/profile.png
+    - assets/mywishlist.png
+    - assets/history.png 
+    - assets/bookrequest.png
+    - assets/setting.png
+    - assets/about.png
+    - assets/logout.png
+    - assets/modechange.png
+    - assets/sriti_shoudho1.png
+    - assets/sriti_shoudho2.png
+    - assets/Dhanshiri-Digital-white.png
+    - assets/translations/
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  fonts:
+    - family: Bensenhandwriti
+      fonts:
+        - asset: fonts/BenSenHandwriting.ttf
+
+          style: italic
+    - family: Mitra
+      fonts:
+        - asset: fonts/mitra.ttf
+
+          style: italic
+    - family: Muktinarrow
+      fonts:
+        - asset: fonts/muktinarrow.ttf
+
+          style: italic
+    - family: Adorsholipi
+      fonts:
+        - asset: fonts/Adorsholipi.ttf
+
+          style: italic
+    - family: AlinurNiladri
+      fonts:
+        - asset: fonts/Li_Alinur_Niladri.ttf
+
+          style: italic
+    - family: 'AlQuds'
+      fonts:
+        - asset: fonts/Li_Al_Quds.ttf
+
+          style: italic
+    - family: Ayat56
+      fonts:
+        - asset: fonts/Li_Aayat56.ttf
+
+          style: italic
+    - family: Bijoyirsha
+      fonts:
+        - asset: fonts/Li_Bijoy_Irsha.ttf
+
+          style: italic
+    - family: HasanHera
+      fonts:
+        - asset: fonts/Li_Hasan_Hera.ttf
+
+          style: italic
+    - family: NiladriMoitree
+      fonts:
+        - asset: fonts/Li_Niladri_Moitree.ttf
+
+          style: italic
+    - family: NiladriNodia
+      fonts:
+        - asset: fonts/Li_Niladri_Nodia.ttf
+
+          style: italic
+    - family: ShamimNoor
+      fonts:
+        - asset: fonts/Li_Shamim_Noor.ttf
+
+          style: italic
+    - family: ShikhHasina
+      fonts:
+        - asset: fonts/Li_Sheikh_Hasina.ttf
+          style: italic
+    - family: ShohidSalam
+      fonts:
+        - asset: fonts/Li_Shohid_Salam.ttf
+
+          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

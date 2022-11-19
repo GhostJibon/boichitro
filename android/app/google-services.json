@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "722338914030",
+    "project_id": "boichitro-f4358",
+    "storage_bucket": "boichitro-f4358.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722338914030:android:164bc627f82f38e736ddff",
+        "android_client_info": {
+          "package_name": "com.dhansiri.communicationltm.boichitro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722338914030-i2b0mcnnsbv4r83ete9lb7o7rddbras6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhansiri.communicationltm.boichitro",
+            "certificate_hash": "e68f6ba3c4348e6ad3ba6db6d21e0310a067d74e"
+          }
+        },
+        {
+          "client_id": "722338914030-grldq2oad2fvg0ge4hmfdvh96fb6140f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdZu3KOUae4yu3EtRF5XpSrckDGlZt50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722338914030-grldq2oad2fvg0ge4hmfdvh96fb6140f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "722338914030-mnc69j5h8etqfs3scqp2km5vnoug19sf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.boichitro.dhanshirisapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Boichitro</string>
+  <string name="facebook_app_id">1736175853435520</string>
+  <string name="fb_login_protocol_scheme">fb1736175853435520</string>
+  <string name="facebook_client_token">115fd2f7c1266fa3bf3f57d107560a0a</string>
+</resources>
