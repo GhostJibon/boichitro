@@ -410,46 +410,47 @@ class _BookDetailsState extends State<BookDetails> {
                                           child: Align(
                                             child: Center(
                                               child: IconButton(
-                                                padding: EdgeInsets.zero,
-                                                icon: Icon(
-                                                  model.cartBooks.contains(
-                                                          widget.recentlist
-                                                              .bookname)
-                                                      ? Icons.favorite
-                                                      : Icons
-                                                          .favorite_border_outlined,
-                                                  size: 2.5.h,
-                                                ),
-                                                onPressed: () async {
-                                                  Map<String, dynamic>?
-                                                      authdata = await model
-                                                          .toggleProductFavoriteStatus(
-                                                              id: widget
-                                                                  .recentlist
-                                                                  .pk);
-                                                  print('i am working');
-                                                  model.fatchfavouriteList();
-                                                  ScaffoldMessenger.of(context)
-                                                      .showSnackBar(SnackBar(
-                                                          duration: Duration(
-                                                              seconds: 2),
-                                                          backgroundColor:
-                                                              Color(0xffc60e13),
-                                                          content: Text(
-                                                              authdata![
-                                                                  'message'],
-                                                              style: TextStyle(
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .bold,
-                                                                  fontSize:
-                                                                      1.8.h,
-                                                                  color: Colors
-                                                                      .white))));
+                                                  padding: EdgeInsets.zero,
+                                                  icon: Icon(
+                                                    model.cartBooks.contains(
+                                                            widget.recentlist
+                                                                .bookname)
+                                                        ? Icons.favorite
+                                                        : Icons
+                                                            .favorite_border_outlined,
+                                                    size: 2.5.h,
+                                                  ),
+                                                  onPressed: () async {
+                                                    Map<String, dynamic>?
+                                                        authdata = await model
+                                                            .toggleProductFavoriteStatus(
+                                                                id: widget
+                                                                    .recentlist
+                                                                    .pk);
+                                                    print('i am working');
+                                                    model.fatchfavouriteList();
+                                                    ScaffoldMessenger.of(
+                                                            context)
+                                                        .showSnackBar(SnackBar(
+                                                            duration: Duration(
+                                                                seconds: 2),
+                                                            backgroundColor:
+                                                                Color(
+                                                                    0xffc60e13),
+                                                            content: Text(
+                                                                authdata![
+                                                                    'message'],
+                                                                style: TextStyle(
+                                                                    fontWeight:
+                                                                        FontWeight
+                                                                            .bold,
+                                                                    fontSize:
+                                                                        1.8.h,
+                                                                    color: Colors
+                                                                        .white))));
 
-                                                  print(authdata);
-                                                },
-                                              ),
+                                                    print(authdata);
+                                                  }),
                                             ),
                                           ),
                                         );

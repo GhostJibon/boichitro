@@ -25,12 +25,15 @@ class PopUpScreen extends StatelessWidget {
         Container(
           height: 3.6.h,
           width: 30.0.w,
-          child: Text(
-            title,
-            style: TextStyle(
-                //  color: Colors.black,
-                fontWeight: FontWeight.bold,
-                fontSize: 1.5.h),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Text(
+              title,
+              style: TextStyle(
+                  //  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 1.5.h),
+            ),
           ),
         ),
       ],
