@@ -150,6 +150,7 @@ class _UserProfileEditState extends State<UserProfileEdit> {
                                   Text(
                                     model.userInfodata!.full_name.toString(),
                                     style: TextStyle(
+                                      color: Colors.white,
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                     ),
