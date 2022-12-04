@@ -145,8 +145,8 @@ class AuthProvider with ChangeNotifier {
 
   refreshtoken() async {
     final Map<String, dynamic> authdata = {
-      'phone': 12345,
-      'password': 123456,
+      'phone': "api_user",
+      'password': "boichitro@2022",
     };
 
     var urls =
